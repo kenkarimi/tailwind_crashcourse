@@ -2,13 +2,16 @@
   "name": "tailwind_crashcourse",
   "version": "1.0.0",
   "description": "Tailwind CSS crash course",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build:css": "tailwind build src/style.css -o dist/style.css"
+    "build:css": "npx tailwindcss-cli@latest build src/style.css -o dist/style.css"
   },
   "author": "Kennedy Mugera Karimi",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
     "tailwindcss": "^2.1.1"
   }
 }
