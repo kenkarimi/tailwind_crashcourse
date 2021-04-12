@@ -4,8 +4,11 @@
   "description": "Tailwind CSS crash course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "tailwind build src/style.css -o dist/style.css"
   },
   "author": "Kennedy Mugera Karimi",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.1.1"
+  }
 }
